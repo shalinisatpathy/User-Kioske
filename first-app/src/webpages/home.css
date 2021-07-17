@@ -1,0 +1,42 @@
+
+.primary{
+    text-align: center;
+    color:black;
+}
+
+.card {
+    margin: 2rem 2rem 2rem 0;
+    padding: 1.5rem;
+    width: 200px;
+    box-shadow: 0 0 28px 4px rgba(0,0,0,0.1);
+    transition: transform .3s ease;
+    cursor: pointer;
+}
+.site {
+
+    text-decoration: underline;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card__title {
+    font-weight: 850;
+    font-size: 1.5rem;
+}
+.card__image img {
+    border-radius: 20%;
+}
+.card__image {
+    display: flex;
+    justify-content: flex-end;
+}
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.na{
+    font-weight: 900;
+
+}
