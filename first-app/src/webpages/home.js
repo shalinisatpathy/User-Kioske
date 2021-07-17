@@ -29,7 +29,7 @@ if (error) {
     } else {
         return (
             <ul>
-                <h2 className='primary'>Information Kioske of Users</h2>
+                <h2 className='primary'>Information Kiosk of Users</h2>
                 <div className="cards-container">
                     
                 {users.map(user => (
